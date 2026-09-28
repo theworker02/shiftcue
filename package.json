@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shiftcue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shift timestamps and cue durations for scripts and CI receipts.",
+  "bin": {
+    "shiftcue": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shiftcue.git"
+  },
+  "homepage": "https://theworker02.github.io/shiftcue/",
+  "keywords": [
+    "shift",
+    "cue",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
